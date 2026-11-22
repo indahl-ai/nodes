@@ -59,3 +59,7 @@ commit read them as unreachable, which was the retirement, not an outage. No rul
 ## Addendum 6 (22 Nov 2026, ZEUS added)
 The ZEUS desk went live on 22 Nov 2026. The page /zeus and the feed zeus/live.json are targets from this commit on. Its rider runs every 240
 ticks, about 8.5 hours, so the feed limit is 26 hours (three times the cadence, rounded up). No rule changed.
+
+## Addendum 7 (22 Nov 2026, SELDON added)
+The SELDON desk went live on 22 Nov 2026. The page /seldon and the feed seldon/live.json are targets from this commit on. Its rider runs every 240
+ticks, about 8.5 hours, so the feed limit is 26 hours (three times the cadence, rounded up). No rule changed.
