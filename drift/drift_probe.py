@@ -60,15 +60,8 @@ if control:
         if t is None: feeds[f] = dict(state='UNREACHABLE')
         else:
             age = round((now - t).total_seconds() / 3600, 2); feeds[f] = dict(age_h=age, limit_h=lim, state='FRESH' if age <= lim else 'STALE')
-    chain = get(raw_at(rev) + 'code/archive/chain.jsonl'); ok = False; n = 0
-    if chain:
-        prev = '0' * 64; ok = True
-        for l in chain.decode().splitlines():
-            e = json.loads(l); m = get(raw_at(rev) + 'code/archive/manifests/%s.json' % e['id']); ms = sha(m) if m else None
-            d = hashlib.sha256((prev + (ms or '')).encode()).hexdigest()
-            if ms != e['manifest_sha256'] or d != e['digest'] or e['prev'] != prev: ok = False
-            prev = e['digest']; n += 1
-    row.update(pages=pages, feeds=feeds, chain=dict(state='OK' if ok else 'BROKEN', entries=n))
+    # 22 Nov 2026: the archive chain is no longer published (receipts and chains are internal), so the probe no longer reads it.
+    row.update(pages=pages, feeds=feeds)
 os.makedirs(os.path.join(ROOT, 'data', 'drift'), exist_ok=True)
 with open(os.path.join(ROOT, 'data', 'drift', 'history.jsonl'), 'a') as f: f.write(json.dumps(row) + '\n')
 json.dump(row, open(os.path.join(ROOT, 'data', 'drift', 'latest.json'), 'w'), indent=1)
