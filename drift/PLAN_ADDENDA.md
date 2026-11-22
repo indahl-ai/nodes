@@ -55,3 +55,7 @@ probe records the commit read (repo_commit) and the rereads used (settle_rounds)
 against the same file in the repository, MATCH or DIFFER, and a page that never matches the repository is still DIFFER.
 2. STACK retired 21 Nov 2026 at the owner's word. The page /stack and the feed stack/live.json are no longer targets; probes before this
 commit read them as unreachable, which was the retirement, not an outage. No rule changed.
+
+## Addendum 6 (22 Nov 2026, ZEUS added)
+The ZEUS desk went live on 22 Nov 2026. The page /zeus and the feed zeus/live.json are targets from this commit on. Its rider runs every 240
+ticks, about 8.5 hours, so the feed limit is 26 hours (three times the cadence, rounded up). No rule changed.

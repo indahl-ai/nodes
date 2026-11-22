@@ -56,7 +56,8 @@
   "census",
   "petrol",
   "standard",
-  "chronos"
+  "chronos",
+  "zeus"
  ],
  "feeds": [
   [
@@ -282,6 +283,10 @@
   [
    "iris/lab/stan.json",
    1.5
+  ],
+  [
+   "zeus/live.json",
+   26
   ]
  ],
  "stamps": {
