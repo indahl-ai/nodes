@@ -1,5 +1,5 @@
 {
- "t": "2026-11-24T08:48:37Z",
+ "t": "2026-11-24T09:48:41Z",
  "control": "PASSED",
  "repo_commit": "ef82f2c035493c82ffa78f5289a6ec081c90d032",
  "settle_rounds": 0,
@@ -91,7 +91,7 @@
    "state": "FRESH"
   },
   "trials/live.json": {
-   "age_h": 0.93,
+   "age_h": 1.93,
    "limit_h": 15.6,
    "state": "FRESH"
   },
@@ -101,32 +101,32 @@
    "state": "FRESH"
   },
   "linkrot/live.json": {
-   "age_h": 0.18,
+   "age_h": 0.01,
    "limit_h": 1.9,
    "state": "FRESH"
   },
   "arxivdrift/live.json": {
-   "age_h": 0.99,
+   "age_h": 0.01,
    "limit_h": 4,
    "state": "FRESH"
   },
   "support/live.json": {
-   "age_h": 0.78,
+   "age_h": 1.78,
    "limit_h": 15.6,
    "state": "FRESH"
   },
   "pkglicense/live.json": {
-   "age_h": 0.94,
+   "age_h": 1.94,
    "limit_h": 22.1,
    "state": "FRESH"
   },
   "hflicense/live.json": {
-   "age_h": 0.94,
+   "age_h": 1.94,
    "limit_h": 21.5,
    "state": "FRESH"
   },
   "hfsize/live.json": {
-   "age_h": 0.94,
+   "age_h": 1.94,
    "limit_h": 20.8,
    "state": "FRESH"
   },
@@ -136,7 +136,7 @@
    "state": "FRESH"
   },
   "secrecords/live.json": {
-   "age_h": 0.94,
+   "age_h": 1.94,
    "limit_h": 20.2,
    "state": "FRESH"
   },
@@ -146,7 +146,7 @@
    "state": "FRESH"
   },
   "qia/stability.json": {
-   "age_h": 0.46,
+   "age_h": 0.26,
    "limit_h": 2.5,
    "state": "FRESH"
   },
@@ -166,32 +166,32 @@
    "state": "FRESH"
   },
   "pkginstall/live.json": {
-   "age_h": 0.94,
+   "age_h": 1.94,
    "limit_h": 19.5,
    "state": "FRESH"
   },
   "revise/live.json": {
-   "age_h": 0.94,
+   "age_h": 1.94,
    "limit_h": 11.7,
    "state": "FRESH"
   },
   "fedsep/live.json": {
-   "age_h": 0.94,
+   "age_h": 1.94,
    "limit_h": 11.7,
    "state": "FRESH"
   },
   "hpt/live.json": {
-   "age_h": 66.99,
+   "age_h": 4.11,
    "limit_h": 565.5,
    "state": "FRESH"
   },
   "weights/live.json": {
-   "age_h": 0.94,
+   "age_h": 1.94,
    "limit_h": 11.7,
    "state": "FRESH"
   },
   "airline/live.json": {
-   "age_h": 0.01,
+   "age_h": 0.14,
    "limit_h": 1.5,
    "state": "FRESH"
   },
@@ -206,7 +206,7 @@
    "state": "FRESH"
   },
   "campus/live.json": {
-   "age_h": 0.94,
+   "age_h": 1.94,
    "limit_h": 23.4,
    "state": "FRESH"
   },
@@ -221,22 +221,22 @@
    "state": "FRESH"
   },
   "water/live.json": {
-   "age_h": 2.88,
+   "age_h": 3.88,
    "limit_h": 12.0,
    "state": "FRESH"
   },
   "wiki/live.json": {
-   "age_h": 155.69,
+   "age_h": 156.69,
    "limit_h": 180,
    "state": "FRESH"
   },
   "activity.json": {
-   "age_h": 0.03,
+   "age_h": 0.06,
    "limit_h": 1.5,
    "state": "FRESH"
   },
   "headlines.json": {
-   "age_h": 0.04,
+   "age_h": 0.01,
    "limit_h": 1.0,
    "state": "FRESH"
   },
@@ -251,12 +251,12 @@
    "state": "FRESH"
   },
   "iris/live.json": {
-   "age_h": 41.21,
+   "age_h": 42.21,
    "limit_h": 1.5,
    "state": "STALE"
   },
   "qia/records/index.json": {
-   "age_h": 0.54,
+   "age_h": 0.21,
    "limit_h": 9,
    "state": "FRESH"
   },
@@ -271,87 +271,87 @@
    "state": "FRESH"
   },
   "social/live.json": {
-   "age_h": 2.84,
+   "age_h": 3.84,
    "limit_h": 72.2,
    "state": "FRESH"
   },
   "neo/live.json": {
-   "age_h": 0.94,
+   "age_h": 1.94,
    "limit_h": 40,
    "state": "FRESH"
   },
   "cone/live.json": {
-   "age_h": 0.94,
+   "age_h": 1.94,
    "limit_h": 40,
    "state": "FRESH"
   },
   "flu/live.json": {
-   "age_h": 0.94,
+   "age_h": 1.94,
    "limit_h": 40,
    "state": "FRESH"
   },
   "quake/live.json": {
-   "age_h": 0.94,
+   "age_h": 1.94,
    "limit_h": 40,
    "state": "FRESH"
   },
   "solar/live.json": {
-   "age_h": 0.94,
+   "age_h": 1.94,
    "limit_h": 40,
    "state": "FRESH"
   },
   "steo/live.json": {
-   "age_h": 2.88,
+   "age_h": 3.88,
    "limit_h": 40,
    "state": "FRESH"
   },
   "tornado/live.json": {
-   "age_h": 2.88,
+   "age_h": 3.88,
    "limit_h": 40,
    "state": "FRESH"
   },
   "predictions/live.json": {
-   "age_h": 2.84,
+   "age_h": 3.84,
    "limit_h": 40,
    "state": "FRESH"
   },
   "rank/live.json": {
-   "age_h": 2.88,
+   "age_h": 3.88,
    "limit_h": 40,
    "state": "FRESH"
   },
   "seasonal/live.json": {
-   "age_h": 2.88,
+   "age_h": 3.88,
    "limit_h": 40,
    "state": "FRESH"
   },
   "credit/live.json": {
-   "age_h": 24.13,
+   "age_h": 25.13,
    "limit_h": 240,
    "state": "FRESH"
   },
   "census/live.json": {
-   "age_h": 2.88,
+   "age_h": 3.88,
    "limit_h": 40,
    "state": "FRESH"
   },
   "petrol/live.json": {
-   "age_h": 123.51,
+   "age_h": 124.51,
    "limit_h": 200,
    "state": "FRESH"
   },
   "iris/lab/stan.json": {
-   "age_h": 158.16,
+   "age_h": 159.16,
    "limit_h": 1.5,
    "state": "STALE"
   },
   "zeus/live.json": {
-   "age_h": 2.84,
+   "age_h": 3.84,
    "limit_h": 26,
    "state": "FRESH"
   },
   "seldon/live.json": {
-   "age_h": 2.84,
+   "age_h": 3.84,
    "limit_h": 26,
    "state": "FRESH"
   }
